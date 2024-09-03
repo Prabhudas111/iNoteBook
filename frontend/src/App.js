@@ -30,7 +30,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              exac
+              exact
               path="/"
               element={<Home showAlert={showAlert} />}
             ></Route>
